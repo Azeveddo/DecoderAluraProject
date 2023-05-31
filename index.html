@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Decoder</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/logo.svg" alt="Logo Alura" />
+    </header>
+    <main>
+      <section>
+        <textarea
+          id="text-area"
+          class="text-area"
+          cols="41"
+          rows="4"
+          placeholder="Digite seu texto"
+        ></textarea>
+
+        <div>
+          <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+        </div>
+        <div class="botoes">
+          <button
+            id="btn-encriptar"
+            class="btn-encriptar"
+            onclick="btnEncriptar()"
+          >
+            Criptografar
+          </button>
+          <button
+            id="btn-desencriptar"
+            class="btn-desencriptar"
+            onclick="btnDesencriptar()"
+          >
+            Descriptografar
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <textarea id="mensagem" class="mensagem" cols="20" rows="10"></textarea>
+        <button id="btn-copiar" class="btn-copiar">Copiar</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
