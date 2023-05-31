@@ -1,7 +1,11 @@
-* {
-  background: #E5E5E5;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 150%;
+#mensagem{
+  background-image: url("./assets/person-bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+textarea{
+  resize: none;
+  text-color: #0A3871;
 }
